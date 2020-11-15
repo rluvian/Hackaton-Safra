@@ -1,0 +1,180 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "olá djei",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "ajuda"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "HelloWorldIntent",
+                    "slots": [],
+                    "samples": [
+                        "diga oi",
+                        "olá",
+                        "oi"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "TesteIntent",
+                    "slots": [],
+                    "samples": [
+                        "teste"
+                    ]
+                },
+                {
+                    "name": "AcaoIntent",
+                    "slots": [
+                        {
+                            "name": "slAcao",
+                            "type": "AcaoConta"
+                        }
+                    ],
+                    "samples": [
+                        "{slAcao}",
+                        "bolsa",
+                        "bolsa de valores",
+                        "mercado de ações",
+                        "Ações",
+                        "Falar sobre mercado de ações",
+                        "Falar sobre ações"
+                    ]
+                },
+                {
+                    "name": "OutroTesteIntent",
+                    "slots": [],
+                    "samples": [
+                        "preço da ação",
+                        "preço",
+                        "valor da ação"
+                    ]
+                },
+                {
+                    "name": "SaldoIntent",
+                    "slots": [],
+                    "samples": [
+                        "fale o meu saldo",
+                        "meu saldo",
+                        "quanto eu tenho de saldo",
+                        "me diga o meu saldo",
+                        "saldo",
+                        "qual  o meu saldo"
+                    ]
+                },
+                {
+                    "name": "AgendaAplicacaoIntent",
+                    "slots": [],
+                    "samples": [
+                        "agende um investimento de dois mil reais em Safra Infra Premium Profession em um de dezembro",
+                        "investir dois mil reais em Safra Infra Premium Profession em um de dezembro"
+                    ]
+                },
+                {
+                    "name": "CompraAtivoIntent",
+                    "slots": [],
+                    "samples": [
+                        "Compre cem Ações da  Petrobras",
+                        "Compre   dois mil reais em Safra Infra Premium Profession"
+                    ]
+                },
+                {
+                    "name": "SenhasaldoIntent",
+                    "slots": [],
+                    "samples": [
+                        "um um um um",
+                        "a senha é um um um um "
+                    ]
+                },
+                {
+                    "name": "SenhaAgendaIntent",
+                    "slots": [],
+                    "samples": [
+                        "dois dois dois dois",
+                        "A Senha é dois dois dois dois"
+                    ]
+                },
+                {
+                    "name": "RentabilidadeAcaoIntent",
+                    "slots": [],
+                    "samples": [
+                        "valorização das açoes da Petrobras nos ultimos seis meses",
+                        "rentabilidade das açoes da Petrobras nos ultimos seis meses",
+                        "oscilação das açoes da Petrobras nos ultimos seis meses",
+                        "qual a oscilação das açoes da Petrobras nos ultimos seis meses",
+                        "qual a rentabilidade das açoes da Petrobras nos ultimos seis meses",
+                        "qual a valorização das açoes da Petrobras nos ultimos seis meses"
+                    ]
+                },
+                {
+                    "name": "ValorAcaoIntent",
+                    "slots": [],
+                    "samples": [
+                        "qual o preço da petrobras",
+                        "preço da petrobras",
+                        "valor da petrobras",
+                        "valor da ação da petrobras",
+                        "qual o valor da ação da Petrobras"
+                    ]
+                },
+                {
+                    "name": "RentabilidadeCarteiraIntent",
+                    "slots": [],
+                    "samples": [
+                        "Qual a oscilação da minha carteira nos ultimos trinta dias",
+                        "oscilação da minha carteira nos ultimos trinta dias",
+                        "oscilação da minha carteira em trinta dias",
+                        "rentabilidade da minha carteira em trinta dias",
+                        "rentabilidade da minha carteira  nos ultimos trinta dias",
+                        "qual a rentabilidade da minha carteira de investimentos nos ultimos  trinta dias"
+                    ]
+                },
+                {
+                    "name": "M_CallIntent",
+                    "slots": [],
+                    "samples": [
+                        "mórnin cáu",
+                        "ouvir o morning call",
+                        "morning call"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "AcaoConta",
+                    "values": [
+                        {
+                            "id": "1",
+                            "name": {
+                                "value": "Saldo Conta"
+                            }
+                        },
+                        {
+                            "id": "2",
+                            "name": {
+                                "value": "Bolsa de Valores",
+                                "synonyms": [
+                                    "Cotação Ação"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
